@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* Exempel-variabel för din branding */
+body {
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  color: #2563eb;
+}
+
+.card {
+  background: #2563eb;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+}
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.card:hover {
+  /* motsvarar ~darken(..., 10%) */
+  background: rgb(20.5714285714, 84.3428571429, 224.2285714286);
+}
+
+/*# sourceMappingURL=styles.css.map */

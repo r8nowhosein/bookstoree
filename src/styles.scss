@@ -1,0 +1,24 @@
+@use "sass:color";
+
+/* Exempel-variabel för din branding */
+$brand-color: #2563eb;
+
+body { font-family: system-ui, sans-serif; }
+h1   { color: $brand-color; }
+
+.card {
+  background: $brand-color;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &:hover {
+    /* motsvarar ~darken(..., 10%) */
+    background: color.scale($brand-color, $lightness: -10%);
+  }
+}
